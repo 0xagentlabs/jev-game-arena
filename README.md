@@ -2,6 +2,9 @@
 
 独立的 Jev 人机对战小游戏平台。当前可完整游玩五子棋、黑白棋、四子棋和井字棋；围棋、中国象棋、军旗位于 Strategy Lab，待各自完整规则引擎通过测试后开放。
 
+- 在线体验：https://jev-game-arena.vercel.app
+- 源码仓库：https://github.com/0xagentlabs/jev-game-arena
+
 ## 本地运行
 
 ```bash
