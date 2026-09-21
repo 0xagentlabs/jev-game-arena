@@ -1,0 +1,2 @@
+import{describe,it,expect}from"vitest";import{apply,initial,moves}from"./games";
+describe("game adapters",()=>{it("drops connect four pieces",()=>{let s=initial("connect4");s=apply("connect4",s,{row:5,col:3});expect(s.board[5][3]).toBe("human")});it("starts reversi with legal moves",()=>expect(moves("reversi",initial("reversi")).length).toBe(4));it("offers center in tic tac toe",()=>expect(moves("tictactoe",initial("tictactoe")).some(m=>m.row===1&&m.col===1)).toBe(true))});
